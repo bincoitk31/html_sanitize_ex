@@ -1717,7 +1717,8 @@ defmodule HtmlSanitizeEx.Scrubber.HTML5 do
     "spellcheck",
     "tabindex",
     "title",
-    "translate"
+    "translate",
+    "border"
   ])
 
   Meta.allow_tag_with_these_attributes("tbody", [
