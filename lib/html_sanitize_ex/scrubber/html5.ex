@@ -299,7 +299,8 @@ defmodule HtmlSanitizeEx.Scrubber.HTML5 do
     "spellcheck",
     "tabindex",
     "title",
-    "translate"
+    "translate",
+    "style"
   ])
 
   Meta.allow_tag_with_these_attributes("em", [
